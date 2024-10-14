@@ -1,0 +1,1 @@
+This is a clone of Doom 2 using the raylib and PyGLM libraries. Raylib has its own way to deal with vector, but for performances reasons, we'll use PyGLM that seems to be faster.
