@@ -1,4 +1,4 @@
-from settings import *
+from .settings import *
 
 class Segment:
     def __init__(self, p0: tuple[float], p1: tuple[float]):

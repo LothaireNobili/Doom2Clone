@@ -1,6 +1,6 @@
-from settings import *
-from level_data import LevelData
-from map_renderer import MapRenderer
+from .settings import *
+from .level_data import LevelData
+from .map_renderer import MapRenderer
 
 class Engine:
     def __init__(self, game):

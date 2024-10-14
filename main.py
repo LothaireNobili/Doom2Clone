@@ -1,5 +1,5 @@
-from settings import *
-from engine import Engine
+from source.settings import *
+from source.engine import Engine
 
 class Game:
     ray.init_window(WIN_WIDTH, WIN_HEIGHT, "Doom 2 clone")

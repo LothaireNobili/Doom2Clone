@@ -1,5 +1,5 @@
-from settings import *
-from data_structures import *
+from .settings import *
+from .data_structures import *
 from levels.level_0 import *
 
 class LevelData:
