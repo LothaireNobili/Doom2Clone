@@ -4,7 +4,7 @@ class Engine:
     def __init__(self, game):
         self.game = game
 
-    def udpate(self, dt): #dt = delta time
+    def update(self): 
         pass
 
     def draw_2d(self): #for debug purposes
@@ -17,7 +17,7 @@ class Engine:
         ray.begin_drawing()
 
         #we actually start to draw here
-        ray.clear_background()
+        ray.clear_background(ray.BLACK)
         self.draw_3d()
         self.draw_2d()
 
