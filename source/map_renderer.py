@@ -18,7 +18,7 @@ class MapRenderer:
         normal = normalize(vec2(-p10.y, p10.x))
         n0 = (p0 + p1) * 0.5
         n1 = n0 + normal * scale
-        #
+        
         ray.draw_line_v((n0.x, n0.y), (n1.x, n1.y), color)
 
     def draw_raw_segments(self):
