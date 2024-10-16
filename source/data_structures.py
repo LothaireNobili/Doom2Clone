@@ -13,3 +13,5 @@ class BSPNode:
         self.splitter_p0: vec2 = None
         self.splitter_p1: vec2 = None
         self.splitter_vec: vec2 = None
+
+        self.segment_id: int = None
