@@ -1,10 +1,11 @@
 from source.settings import *
 
 #level prototyp, they will be created more smoothly in the future
-P_00 = (0.0, 0.0)
-P_01 = (0.0, 5.0)
-P_10 = (7.0, 0.0)
-P_11 = (7.0, 5.0)
+P_00 = (1.0, 1.0)
+P_01 = (1.0, 6.0)
+P_11 = (8.0, 6.0)
+P_10 = (8.0, 1.0)
+
 
 SEGMENTS = [
     (P_00, P_01),
